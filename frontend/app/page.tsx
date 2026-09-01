@@ -1,10 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import SelectedWork from "@/components/SelectedWork";
-import Services from "@/components/Services";
+import Material from "@/components/Material";    
+import Promo from "@/components/Promo";
 import About from "@/components/About";
-import Process from "@/components/Process";
-import Blog from "@/components/Blog";import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,11 +12,10 @@ export default function Home() {
 
       <main>
         <Hero />
-        <SelectedWork />
-        <Services />
         <About />
-        <Process />
-        <Blog />
+        <Material />
+        <Promo />
+        
       </main>
 
       <Footer />
